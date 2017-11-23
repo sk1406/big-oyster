@@ -8,7 +8,12 @@ html {
   min-height: 100%;
 }
 
+body{
+  background-color: #f0ede4 !important;
+} /* added to change background color all over */
+
 .navbar {
+  background-color: #f5f6f1 !important;
   margin-bottom: 0px;
   font-family: 'Lobster', cursive;
   size: 20px;
@@ -25,13 +30,17 @@ html {
   margin: auto;
 }
 
+.card  {
+  background-color: #f0ede4 !important;
+} 
+
 
 /* -- start divider -- */
 
 @media ( min-width: 768px ) {
     .grid-divider {
         position: relative;
-        padding: 0;
+        background-color: #f0ede4 !important;
     }
     .grid-divider>[class*='col-'] {
         position: static;
@@ -52,7 +61,7 @@ html {
 
 /* -- start circle -- */
 
-  .circle-container {
+.circle-container {
   position: relative;
   width: 26em;
   height: 26em;
@@ -67,7 +76,7 @@ html {
   border-radius: 50%;
   overflow: hidden;
   border-style: solid;
- 
+  border-color: black !important;
 }
 
 .circle-container a {
@@ -84,14 +93,6 @@ html {
 .circle-container img {
   display: block;
   width: 100%;
-}
-
-.text-container{
-  position: relative;
-  min-height: 100%;
-  font-family: 'Libre Franklin', sans-serif;
-  size: 15px;
-  margin: auto; 
 }
 
 .deg0 {
@@ -128,29 +129,48 @@ html {
   transform: rotate(315deg) translate(12em) rotate(-315deg);
 }
 
-.card-container{
-  min-height: 100%;
-  font-family: 'Libre Franklin', sans-serif;
-  size: 15px;
-  margin: auto;
-} 
-
 /* -- end circle -- */
 
 
 /* -- start accordian -- */
+
 #accordion {
- margin-top: 40px;  
+ margin-top: 40px; 
 }
-/* -- end accordian -- */
+
+#headingOne{
+  background:#E0DEDC;
+}
+
+#headingTwo{
+  background:#D0CCCA;
+}
+
+#headingThree{
+  background:#C0BAB8;
+}
+
+#headingFour{
+  background:#B0A8A6;
+}
+
+#headingFive{
+  background:#9E9795;
+}
+
+#headingSix{
+  background:#7A7573;
+}
+
+#headingSeven{
+  background:#565351;
+}
+
+/* -- end accordian one -- */
+
 
 /* -- start timeline --*/
 
-
-.timeline-h1{
- font:'Libre Franklin', sans-serif;  
- font-size: 20px;
-}
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -166,7 +186,7 @@ html {
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: #eeeeee;
+  background-color: #999999; /*#eeeeee*/
   left: 50%;
   margin-left: -1.5px;
 }
@@ -199,6 +219,7 @@ html {
 .timeline > li > .timeline-panel {
   width: 46%;
   float: left;
+  background-color: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
@@ -268,24 +289,9 @@ html {
   right: auto;
 }
 
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
-
-.timeline-badge.warning {
-  background-color: #f0ad4e !important;
-}
-
-.timeline-badge.danger {
-  background-color: #d9534f !important;
-}
-
-.timeline-badge.info {
-  background-color: #5bc0de !important;
+.timeline-badge.mauve {
+  background-color: #a18b94 !important;
+  border-color: #a18b94 !important;
 }
 
 .timeline-title {
@@ -346,7 +352,7 @@ html {
 .wrapper {
   width: 100%;
   position: relative;
-  background-color: #fff;
+  background-color: #f0ede4;
 }
 
 .wrapper:after {
@@ -483,12 +489,6 @@ html {
 
 /* BEAUTY */
 
-body,
-html {
-  background-color: #fff;
-  padding: 0;
-}
-
 .wrapper .column .inner {
   background-size: cover;
   background-position: center;
@@ -557,20 +557,30 @@ html {
 /* third row 4th from left */
 
 .wrapper .column:nth-child(13) .inner {
-  background-image: url('https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/10483455_592335754230795_537719826_n.jpg');
+  background-image: url('#');
 }
 
-/* -- end gallery --*/
+/* -- end gallery -- */
 
-/* -- start footer --*/
+/* -- start contact -- */
 
+h4 {
+  font-family: 'Lobster', cursive;
+  size: 20px;
+}
+
+/* -- end contact -- */
+
+
+/* -- start footer -- */
 body {
-  margin-bottom: 150px;
+  margin: 0;
+  padding-bottom: 150px;
 }
 
 .footer {
   position: absolute;
-  padding: 0;
+  bottom: 0;
   width: 100%;
   height: 150px;
   background-color: #111;
@@ -578,8 +588,8 @@ body {
 }
 
 .container {
-  margin-top: 50px;
-  color: #0000;
+  margin-top: 50px; 
+  color: #f0ede4 ;
   width: 100%;
 }
 

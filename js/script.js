@@ -1,26 +1,14 @@
+//accordion cards
+//$('.collapse').collapse()
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-   
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
-}
+$('#myCollapsible').collapse({
+  toggle: false
+})
 
-$('.collapse').collapse()
+/* // a hex code for an attractive color
+var color = randomColor(); 
 
-//gallery
-var $grid = $('.gallery-wrapper').masonry({
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    percentPosition: true,
-    transitionDuration: 0,
-  });
-
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry();
-  });
+//color generator
+RandomColor::many(18, array('hue'=>'blue')); */
 
 //<button onclick="myFunction()">Click me</button>
