@@ -15,6 +15,7 @@ body{
 .navbar {
   background-color: #f5f6f1 !important;
   margin-bottom: 0px;
+  width: 100%;
   font-family: 'Lobster', cursive;
   size: 20px;
 }
@@ -40,7 +41,6 @@ body{
 @media ( min-width: 768px ) {
     .grid-divider {
         position: relative;
-        background-color: #f0ede4 !important;
     }
     .grid-divider>[class*='col-'] {
         position: static;
@@ -54,6 +54,8 @@ body{
     }
     .col-padding {
         padding: 0 15px;
+       /* margin-left: 5px;
+        margin-right: 5px; */
     }
 }
 
@@ -166,8 +168,12 @@ body{
   background:#565351;
 }
 
-/* -- end accordian one -- */
+/* -- end accordian -- */
 
+
+/* -- start aquaculture -- */
+
+/* -- end aquaculture -- */
 
 /* -- start timeline --*/
 
@@ -590,7 +596,7 @@ body {
 .container {
   margin-top: 50px; 
   color: #f0ede4 ;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .fa-twitter {
