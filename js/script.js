@@ -1,14 +1,23 @@
 //accordion cards
-//$('.collapse').collapse()
 
 $('#myCollapsible').collapse({
   toggle: false
 })
 
-/* // a hex code for an attractive color
-var color = randomColor(); 
+//google map
 
-//color generator
-RandomColor::many(18, array('hue'=>'blue')); */
+map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8
+});
+
+
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
 
 //<button onclick="myFunction()">Click me</button>

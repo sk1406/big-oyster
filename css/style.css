@@ -51,6 +51,8 @@ body{
         position: absolute;
         top: 0;
         bottom: 0;
+        font: 'Libre Franklin', sans-serif !important;
+        font-size: 12px; 
     }
     .col-padding {
         padding: 0 15px;
@@ -135,6 +137,24 @@ body{
 
 
 /* -- start accordian -- */
+.card {
+  background-color: transparent !important;
+  font: 'Libre Franklin', sans-serif !important;
+  font-size: 12px; 
+}
+
+.card a {
+  color: grey !important;
+  font-family: 'Lobster', cursive;
+  font-size: 20px !important;
+  text-decoration: none !important;
+}
+
+.card a:hover {
+  color: white !important;
+}
+
+
 
 #accordion {
  margin-top: 40px; 
@@ -570,9 +590,36 @@ body{
 
 /* -- start contact -- */
 
-h4 {
-  font-family: 'Lobster', cursive;
-  size: 20px;
+#contact{
+    background-color:#f1f1f1;
+    font: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+
+#contact .well{
+    margin-top:30px;
+    /* border-radius:0; */
+}
+
+/* #contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+} */
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
 }
 
 /* -- end contact -- */
