@@ -59,13 +59,12 @@ body{
 
 /* -- start circle -- */
 
-/*
-@media (max-width: 767px) {
-  .circle-container:before {
-  top: 0;
-  bottom: 0;
+
+@media (max-width: 500px) {
+  .circle-container {
+  font-size: 10px;
   }
-} */
+} 
 
 .circle-container {
   position: relative;
