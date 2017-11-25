@@ -9,13 +9,13 @@ html {
 }
 
 body{
-  background-color: #f5f6f1;
+  background-color: #f0ede4;
 } /* added to change background color all over */
 
 
 /* -- start navbar -- */
 .navbar {
-  background-color: #F7F8F2;
+  background-color: #c7c8c2;
   margin-bottom: 0px;
   width: 100%;
   font-family: 'Lobster', cursive;
@@ -24,6 +24,7 @@ body{
 .navbar-brand {
   font-family: 'Lobster', cursive;
   font-size: 40px;
+  color: #2D2E31;
 }
 
 .nav-item {
@@ -38,6 +39,7 @@ body{
 #col-sm-12 h3 {
   text-align: left;
   font-family: 'Libre Franklin', sans-serif !important;
+  color: #2D2E31;
   padding-top: 20px 0 30px 30px;
 }
 
@@ -53,6 +55,14 @@ body{
 
 
 /* -- start circle -- */
+
+/*
+@media (max-width: 767px) {
+  .circle-container:before {
+  top: 0;
+  bottom: 0;
+  }
+} */
 
 .circle-container {
   position: relative;
@@ -127,21 +137,21 @@ body{
 
 /* -- start accordian -- */
 .card {
-  background-color: #f5f6f1;
+  background-color: #f0ede4;
   font: 'Libre Franklin', sans-serif;
   text-align: justify;
   font-size: 16px; 
 }
 
 .card a {
-  color: grey !important;
+  color: #2D2E31;
   font-family: 'Lobster', cursive;
   font-size: 20px;
   text-decoration: none;
 }
 
 .card a:hover {
-  color: white;
+  color: #0000;
 }
 
 #accordion {
@@ -149,31 +159,31 @@ body{
 }
 
 #headingOne{
-  background:#F7F8F2;
+  background:#D8D5CD;
 }
 
 #headingTwo{
-  background:#EBECE6; 
+  background:#C0BDB6; 
 }
 
 #headingThree{
-  background:#E5E6E0;
+  background:#A8A59F;
 }
 
 #headingFour{
-  background:#DFE0DA;  
+  background:#908D88;  
 }
 
 #headingFive{
-  background:#D9DAD4;   
+  background:#787571;   
 }
 
 #headingSix{
-  background:#D3D4CE;
+  background:#605D5A;
 }
 
 #headingSeven{
-  background:#CDCEC8;
+  background:#605D5A;
 }
 
 /* -- end accordian -- */
@@ -300,13 +310,13 @@ body{
 }
 
 .timeline-badge.mauve {
-  background-color: #a18b94 !important;
-  border-color: #a18b94 !important;
+  background-color: #929eac !important;
+  border-color:  #929eac !important;
 }
 
 .timeline-title {
   margin-top: 0;
-  color: grey; /* inherit */
+  color: #2D2E31;
 }
 
 .timeline-body > p,
@@ -362,7 +372,7 @@ body{
 .wrapper {
   width: 100%;
   position: relative;
-  background-color:#f5f6f1;
+  background-color:#f0ede4;
 }
 
 .wrapper:after {
@@ -575,9 +585,10 @@ body{
 /* -- start contact -- */
 
 #contact{
-    background-color:#F7F8F2;
+    background-color:#f0ede4;
     font: 'Libre Franklin', sans-serif;
     font-size: 20px;
+    color: #999999;
 }
 
 #contact .well{
@@ -593,7 +604,7 @@ body{
 #contact button{
     /* border-radius:0; */
     /* border:2px solid #999999; */
-    background-color: #a18b94;
+    background-color: #929eac;
 } 
 
 #contact .row{
@@ -620,13 +631,13 @@ body {
   bottom: 0;
   width: 100%;
   height: 150px;
-  background-color: #111;
+  background-color:#2D2E31;
   text-align: center;
 }
 
 .container {
   margin-top: 50px; 
-  color: #f0ede4 ;
+  color: #2D2E31;
   /* width: 100%; */
 }
 
