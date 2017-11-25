@@ -36,11 +36,14 @@ body{
 
 /* -- start divider -- */
 
-#col-sm-12 h3 {
-  text-align: left;
+.col-sm-12 {
   font-family: 'Libre Franklin', sans-serif !important;
   color: #2D2E31;
-  padding-top: 20px 0 30px 30px;
+  position: relative;
+  min-height: 1px;
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 30px;
 }
 
 .column-one, .column-two, .column-three {
@@ -48,7 +51,7 @@ body{
   font: 'Libre Franklin', sans-serif;
   font-size: 16px;
   text-align: justify;
-  padding: 20px 30px 30px 30px;
+  padding: 15px 30px 30px 30px;
 }
 
 /* -- end divider -- */
@@ -151,7 +154,7 @@ body{
 }
 
 .card a:hover {
-  color: #0000;
+  color: white !important;
 }
 
 #accordion {
@@ -527,7 +530,7 @@ body{
 }
 
 .wrapper .column:nth-child(4) .inner {
-  background-image: url(../images/viewoftrinitychurch.jpg);
+  background-image: url(../images/nyharbor1775.jpg);
 }
 
 .wrapper .column:nth-child(5) .inner {
@@ -553,7 +556,7 @@ body{
 /* second row 5th from left */
 
 .wrapper .column:nth-child(9) .inner {
-  background-image: url(../images/nyharbor1775.jpg);
+  background-image: url(../images/nyharbor2.jpg);
 }
 
 /* third row 1st from left */
@@ -571,7 +574,7 @@ body{
 /* third row 3rd from left */
 
 .wrapper .column:nth-child(12) .inner {
-  background-image: url(../images/nyharbor.jpg);
+  background-image: url(../images/TrinityView.jpg);
 }
 
 /* third row 4th from left */
